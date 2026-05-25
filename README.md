@@ -1,5 +1,9 @@
 # CNR Slab Solutions
+
 <img width="1774" height="887" alt="b4608719-aea2-44dc-a91e-ff92ac7d38bf" src="https://github.com/user-attachments/assets/810fbef3-64b8-48d5-9e9b-6a3b99d5813c" />
+
+### Live Demo
+[View Website](https://c2k27.github.io/cnr-slab-solutions/)
 
 Small frontend concept for a concrete slab visualization platform.
 
