@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CNR Slab Solutions | See It. Price It. Build It.</title>
+  <meta name="description" content="Upload a photo, visualize concrete, get an instant price. Demo showcase site." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ssl-strip" role="status">
+    <span class="ssl-icon" aria-hidden="true">&#128274;</span>
+    <span>SSL Encrypted &amp; Secure</span>
+    <span class="ssl-dot">&#8226;</span>
+    <span>Your data and payments are 100% protected</span>
+  </div>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main">
+      <a href="#top" class="logo">
+        <span class="logo-mark">CNR</span>
+        <span class="logo-text">
+          <span class="logo-sub">SLAB</span>
+          <span class="logo-sub">SOLUTIONS</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <div class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#top" class="active">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="tel:+15551234567" class="nav-phone">
+            <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.9 15.9 0 006.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" fill="currentColor"/></svg>
+            <span class="nav-phone-num">(555) 123-4567</span>
+          </a>
+          <a href="#" class="btn btn-ghost btn-sm">Login</a>
+          <a href="#hero" class="btn btn-primary btn-sm">Get Started</a>
+        </div>
+      </div>
+    </nav>
+    <div class="nav-backdrop" id="navBackdrop" hidden></div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero-layout">
+        <div class="hero-left reveal">
+          <h1>SEE IT. PRICE IT. <span class="text-accent">BUILD IT.</span></h1>
+          <p class="hero-sub">Upload a photo. Visualize your concrete. Get an instant price. Order with confidence.</p>
+          <div class="hero-features">
+            <div class="hero-feature">
+              <span class="feature-ring" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"/></svg></span>
+              <span>UPLOAD</span>
+            </div>
+            <div class="hero-feature">
+              <span class="feature-ring" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"/></svg></span>
+              <span>PREVIEW</span>
+            </div>
+            <div class="hero-feature">
+              <span class="feature-ring" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/></svg></span>
+              <span>PRICE &amp; ORDER</span>
+            </div>
+          </div>
+          <div class="hero-ctas">
+            <a href="#visualizer" class="btn btn-primary btn-fluid-sm">Start Your Mockup &rarr;</a>
+            <a href="#how-it-works" class="btn btn-secondary btn-fluid-sm">
+              <span class="play-dot" aria-hidden="true"></span> How It Works
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-center reveal" id="visualizer">
+          <div class="visualizer-panel">
+            <ol class="viz-steps">
+              <li class="active"><span>1</span> Upload Photo</li>
+              <li><span>2</span> Select Area</li>
+              <li><span>3</span> Choose Material</li>
+              <li><span>4</span> Get Price</li>
+            </ol>
+            <div class="viz-body">
+              <div class="upload-chip">
+                <span class="upload-dot"></span>
+                <span>driveway_surface.jpg</span>
+                <span class="upload-badge">Uploaded</span>
+              </div>
+              <div class="ba-stage ba-stage--paired" id="baSlider">
+                <img
+                  class="ba-paired-img ba-paired-before"
+                  id="baBeforeImg"
+                  src="assets/images/hero-before.png"
+                  alt="Gravel and dirt driveway before concrete"
+                  decoding="async"
+                />
+                <div class="ba-clip" id="baClip">
+                  <div class="ba-clip-inner" id="baClipInner">
+                    <img
+                      class="ba-paired-img ba-paired-after"
+                      id="baAfterImg"
+                      src="assets/images/hero-after.png"
+                      alt="Finished concrete driveway after pour"
+                    />
+                    <div class="material-overlay" id="materialOverlay" aria-hidden="true"></div>
+                  </div>
+                </div>
+                <div class="ba-divider" id="baDivider" aria-hidden="true">
+                  <div class="ba-handle-knob"></div>
+                </div>
+                <input type="range" class="ba-range" min="0" max="100" value="52" aria-label="Drag to compare before and after concrete preview" />
+                <span class="ba-tag ba-tag-l">BEFORE</span>
+                <span class="ba-tag ba-tag-r">AFTER (CONCRETE PREVIEW)</span>
+              </div>
+              <div class="material-row">
+                <span class="material-label">Choose Material</span>
+                <div class="material-thumbs">
+                  <button type="button" class="mat-thumb active" data-material="Standard Gray" data-texture="" data-price="4250">
+                    <img src="assets/images/material-standard-gray.png" alt="Standard Gray texture" />
+                    <span>Standard Gray</span>
+                  </button>
+                  <button type="button" class="mat-thumb" data-material="Broom Finish" data-texture="assets/images/material-broom-finish.png" data-price="4580">
+                    <img src="assets/images/material-broom-finish.png" alt="Broom Finish texture" />
+                    <span>Broom Finish</span>
+                  </button>
+                  <button type="button" class="mat-thumb" data-material="Exposed Aggregate" data-texture="assets/images/material-exposed-aggregate.png" data-price="5120">
+                    <img src="assets/images/material-exposed-aggregate.png" alt="Exposed Aggregate texture" />
+                    <span>Exposed Aggregate</span>
+                  </button>
+                  <button type="button" class="mat-thumb" data-material="Stamped Concrete" data-texture="assets/images/material-stamped-concrete.png" data-price="5890">
+                    <img src="assets/images/material-stamped-concrete.png" alt="Stamped Concrete texture" />
+                    <span>Stamped Concrete</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-pricing reveal">
+          <div class="pricing-card">
+            <p class="pricing-label">ESTIMATED PRICE</p>
+            <p class="pricing-amount" id="estimatedPrice">$4,250 <small>USD</small></p>
+            <ul class="pricing-meta">
+              <li><span>Area</span><strong>850 sq ft</strong></li>
+              <li><span>Thickness</span><strong>4 inch</strong></li>
+              <li><span>Material</span><strong id="materialName">Standard Gray</strong></li>
+              <li><span>Access</span><strong>Easy</strong></li>
+            </ul>
+            <button type="button" class="btn btn-primary btn-block btn-fluid-sm" id="addOrder">Add to Order</button>
+            <div class="stripe-trust">
+              <span>Secure Checkout</span>
+              <span class="stripe-logo">Powered by <em>stripe</em></span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <p class="section-tag reveal">OUR SERVICES</p>
+        <div class="services-grid reveal">
+          <article class="service-card service-card-h">
+            <div class="service-img">
+              <img src="assets/images/hero-after.png" alt="Residential driveway" loading="lazy" />
+            </div>
+            <div class="service-body">
+              <h3>Driveways</h3>
+              <p>Premium residential driveways with clean edges and lasting curb appeal.</p>
+              <a href="#contact" class="link-cta">Get a Quote &rarr;</a>
+            </div>
+          </article>
+          <article class="service-card service-card-h">
+            <div class="service-img">
+              <img src="assets/images/teaser-after.png" alt="Commercial sidewalk" loading="lazy" />
+            </div>
+            <div class="service-body">
+              <h3>Sidewalks</h3>
+              <p>Safe walkways built to code for homes, retail, and municipal projects.</p>
+              <a href="#contact" class="link-cta">Get a Quote &rarr;</a>
+            </div>
+          </article>
+          <article class="service-card service-card-h">
+            <div class="service-img">
+              <img src="assets/images/hero-before.png" alt="Parking lot slab" loading="lazy" />
+            </div>
+            <div class="service-body">
+              <h3>Parking Lots</h3>
+              <p>Heavy-duty commercial slabs engineered for traffic and drainage.</p>
+              <a href="#contact" class="link-cta">Get a Quote &rarr;</a>
+            </div>
+          </article>
+          <article class="service-card service-card-h service-card-secondary">
+            <div class="service-img">
+              <img src="assets/images/material-stamped-concrete.png" alt="Backyard patio" loading="lazy" />
+            </div>
+            <div class="service-body">
+              <h3>Patios</h3>
+              <p>Custom outdoor living slabs and decorative finishes.</p>
+              <a href="#contact" class="link-cta">Get a Quote &rarr;</a>
+            </div>
+          </article>
+          <article class="service-card service-card-h service-card-secondary">
+            <div class="service-img">
+              <img src="assets/images/material-exposed-aggregate.png" alt="Concrete repair work" loading="lazy" />
+            </div>
+            <div class="service-body">
+              <h3>Repairs</h3>
+              <p>Resurfacing, crack repair, and structural patch solutions.</p>
+              <a href="#contact" class="link-cta">Get a Quote &rarr;</a>
+            </div>
+          </article>
+          <aside class="consult-card" id="appointment">
+            <h3>Book A <span class="text-accent">CONSULTATION</span></h3>
+            <div class="mini-cal" id="miniCal" aria-label="May 2025 calendar"></div>
+            <button type="button" class="btn btn-primary btn-block btn-fluid-sm" id="bookBtn">Book Now</button>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-bar" aria-label="Features">
+      <div class="container feature-strip">
+        <div class="feature-item reveal"><span class="fi-icon">&#9201;</span> Instant Quote</div>
+        <div class="feature-item reveal"><span class="fi-icon">&#128737;</span> Secure Payments</div>
+        <div class="feature-item reveal"><span class="fi-icon">&#9993;</span> Automated Updates</div>
+        <div class="feature-item reveal"><span class="fi-icon">&#10003;</span> Quality Guaranteed</div>
+        <div class="feature-item reveal"><span class="fi-icon">&#9202;</span> On-Time Service</div>
+      </div>
+    </section>
+
+    <section class="reviews-block" id="reviews">
+      <div class="container reviews-layout">
+        <div class="reviews-head reveal">
+          <p class="section-tag">WHAT OUR CLIENTS SAY</p>
+          <div class="score-line">
+            <span class="stars-lg" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            <strong>5.0</strong>
+          </div>
+          <p class="review-count">Based on <strong>120+</strong> reviews</p>
+        </div>
+        <div class="review-cards reveal">
+          <article class="review-card">
+            <div class="review-top">
+              <span class="stars-sm">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <span class="g-badge" title="Google">G</span>
+            </div>
+            <p>&ldquo;The visualizer nailed our driveway quote. Crew was professional and on schedule.&rdquo;</p>
+            <footer><span class="avatar">JM</span> Jason M.</footer>
+          </article>
+          <article class="review-card">
+            <div class="review-top">
+              <span class="stars-sm">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <span class="g-badge">G</span>
+            </div>
+            <p>&ldquo;Instant price, secure checkout, and updates every step. Best contractor experience.&rdquo;</p>
+            <footer><span class="avatar">ML</span> Maria L.</footer>
+          </article>
+          <article class="review-card">
+            <div class="review-top">
+              <span class="stars-sm">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <span class="g-badge">G</span>
+            </div>
+            <p>&ldquo;Stamped patio looks incredible. Mockup matched the final pour perfectly.&rdquo;</p>
+            <footer><span class="avatar">DK</span> David K.</footer>
+          </article>
+        </div>
+        <div class="ba-teaser reveal" id="gallery">
+          <p class="section-tag">BEFORE &amp; AFTER</p>
+          <div class="teaser-ba" id="teaserBa">
+            <div class="teaser-stage ba-stage--paired ba-stage--crop-labels" id="teaserStage">
+              <img
+                class="ba-paired-img ba-paired-before"
+                src="assets/images/teaser-before.png"
+                alt="Dirt walkway before concrete"
+                loading="lazy"
+              />
+              <div class="ba-clip teaser-clip" id="teaserClip">
+                <div class="ba-clip-inner teaser-clip-inner" id="teaserClipInner">
+                  <img
+                    class="ba-paired-img ba-paired-after"
+                    src="assets/images/teaser-after.png"
+                    alt="Finished concrete walkway"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+              <div class="ba-divider teaser-divider" id="teaserDivider" aria-hidden="true">
+                <div class="ba-handle-knob"></div>
+              </div>
+              <input type="range" class="teaser-range" min="0" max="100" value="55" aria-label="Teaser comparison" />
+              <span class="ba-tag ba-tag-l">BEFORE</span>
+              <span class="ba-tag ba-tag-r">AFTER</span>
+            </div>
+          </div>
+          <a href="#gallery-grid" class="btn btn-primary btn-sm btn-fluid-sm">View Gallery</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section" id="gallery-grid">
+      <div class="container">
+        <p class="section-tag reveal">PROJECT GALLERY</p>
+        <div class="gallery-showcase reveal" aria-label="Completed concrete projects">
+          <figure class="gallery-card">
+            <div class="gallery-card__frame">
+              <img
+                class="gallery-card__img gallery-card__img--1"
+                src="assets/images/gallery-1.jpg"
+                alt="Completed residential concrete driveway"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          </figure>
+          <figure class="gallery-card">
+            <div class="gallery-card__frame">
+              <img
+                class="gallery-card__img gallery-card__img--2"
+                src="assets/images/gallery-2.jpg"
+                alt="Smooth broom-finish sidewalk slab"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          </figure>
+          <figure class="gallery-card">
+            <div class="gallery-card__frame">
+              <img
+                class="gallery-card__img gallery-card__img--3"
+                src="assets/images/gallery-3.jpg"
+                alt="Stamped concrete patio installation"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          </figure>
+          <figure class="gallery-card">
+            <div class="gallery-card__frame">
+              <img
+                class="gallery-card__img gallery-card__img--4"
+                src="assets/images/gallery-4.jpeg"
+                alt="Concrete slab removal and surface prep"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing-anchor" id="pricing">
+      <div class="container reveal">
+        <p class="section-tag">PRICING</p>
+        <p class="pricing-blurb">Photo-based instant estimates. Final bid confirmed on site. No surprise fees on standard residential pours.</p>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="container">
+        <h2 class="section-heading reveal">FAQ</h2>
+        <div class="accordion reveal">
+          <details class="faq-item" open>
+            <summary>Pricing</summary>
+            <p>Quotes start in the visualizer from your upload. We confirm measurements before pour day.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Timeline</summary>
+            <p>Most driveways pour within 2–3 weeks of booking, weather permitting.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Materials</summary>
+            <p>Standard gray, broom, exposed aggregate, and stamped options are available in the mockup tool.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Scheduling</summary>
+            <p>Book consultations online and receive automated prep and pour-day reminders.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Warranty</summary>
+            <p>Up to 2-year workmanship warranty on qualifying residential work.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-layout">
+        <div class="contact-info reveal">
+          <h2>Contact Us</h2>
+          <p class="service-area">Serving Texas &amp; surrounding areas</p>
+          <ul>
+            <li><strong>Phone</strong> <a href="tel:+15551234567">(555) 123-4567</a></li>
+            <li><strong>Email</strong> <a href="mailto:hello@cnrslab.demo">hello@cnrslab.demo</a></li>
+          </ul>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <label>Name<input type="text" name="name" required placeholder="Your name" /></label>
+          <label>Email<input type="email" name="email" required placeholder="you@email.com" /></label>
+          <label>Message<textarea name="message" rows="3" required placeholder="Project details"></textarea></label>
+          <button type="submit" class="btn btn-primary btn-fluid-sm">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <div id="how-it-works" class="anchor-only" aria-hidden="true"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <a href="#top" class="logo footer-logo">
+        <span class="logo-mark">CNR</span>
+        <span class="logo-text">
+          <span class="logo-sub">SLAB</span>
+          <span class="logo-sub">SOLUTIONS</span>
+        </span>
+      </a>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <a href="#services">Services</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="#">About</a>
+          <a href="#">Careers</a>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <a href="#contact">Contact</a>
+          <a href="#">Terms</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <a href="tel:+15551234567">(555) 123-4567</a>
+          <a href="mailto:hello@cnrslab.demo">hello@cnrslab.demo</a>
+          <span class="footer-area">Serving Texas &amp; Surrounding Areas</span>
+        </div>
+      </div>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="Instagram">in</a>
+        <a href="#" aria-label="Google">G</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2025 CNR Slab Solutions. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button type="button" class="live-chat" id="liveChat" aria-label="Live chat">
+    <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>
+    <span class="live-chat-label">Live Chat</span>
+  </button>
+  <div class="chat-panel" id="chatPanel" hidden>
+    <header>CNR Support<button type="button" id="chatClose" aria-label="Close">&times;</button></header>
+    <p>Demo chat. Ask about quotes or scheduling.</p>
+    <input type="text" placeholder="Type a message..." />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
